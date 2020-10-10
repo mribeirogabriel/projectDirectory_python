@@ -16,7 +16,7 @@ def main():
             os.mkdir(projectDirectory)
             os.mkdir(projectDirectory + '\\Audios')
             os.mkdir(projectDirectory + '\\Videos')
-            os.mkdir(projectDirectory + '\\Fotos')
+            os.mkdir(projectDirectory + '\\Photos')
 
             showDirectory = os.system('dir '+ projectDirectory)
             print (showDirectory)
